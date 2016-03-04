@@ -43,7 +43,7 @@ button.click()
 # Wait for the new page to load
 time.sleep(3)
 # Verify user is taken to Qxf2 tutorial redirect url
-if (driver.current_url== 'http://qxf2.com/selenium-tutorial-redirect'):
+if (driver.current_url== 'https://qxf2.com/selenium-tutorial-redirect'):
     print "Success"
 else:
     print "Failure"
