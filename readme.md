@@ -1,9 +1,7 @@
 --------
 Learn Selenium using examples for beginners
 --------
-Selenium lets you control the browser through a script. Selenium lets you interact with browsers in a manner similar to real users interacting with browsers. We present small code samples that help you learn selenium from scratch using Python. 
-
-There are example code for some of the most commonly performed actions on a webpage like navigating to a URL, fill in the text, click buttons, hover over elements, choose drop downs, validate text, etc. 
+Selenium lets you control the browser through a script. Selenium lets you interact with browsers in a manner similar to real users interacting with browsers. We present small code samples that help you learn selenium from scratch using Python. These are example code for some of the most commonly performed actions on a webpage like navigating to a URL, fill in the text, click buttons, hover over elements, choose drop downs, validate text, etc. 
 
 --------
 Motivation for creating this repository
@@ -27,7 +25,7 @@ d. Install Selenium (pip install Selenium)
 
 e. Download Geckodriver (https://github.com/mozilla/geckodriver/releases) and add it to your PATH environment variable
 
-f. Open command prompt, navigate to the folder you have downloaded the repo and run the test using command eg: *python 01_Navigate_Url.py*
+f. Open command prompt, navigate to the folder you have downloaded the repo and run the example code using command eg: *python 01_Navigate_Url.py*
 
 Pro tip: Once you are setup, try your best to timebox each exercise to no more than 10-minutes. We recommend this tip for even rank beginners who know nearly nothing about Selenium and Python!
 
