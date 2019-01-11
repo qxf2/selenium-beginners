@@ -1,22 +1,37 @@
-This page was created by __Qxf2 Services__ (http://qxf2.com) and __Mangalore Infotech__ (http://mangaloreinfotech.in/) to help testers practice Selenium. Selenium lets you control the browser through a script. Selenium lets you interact with browsers in a manner similar to real users interacting with browsers. For example, you can fill in text, click buttons, hover over elements, chose drop downs, validate text, etc.
+--------
+Learn Selenium using examples for beginners
+--------
+Selenium lets you control the browser through a script. Selenium lets you interact with browsers in a manner similar to real users interacting with browsers. We present small code samples that help you learn selenium from scratch using Python. These are example code for some of the most commonly performed actions on a webpage like navigating to a URL, fill in the text, click buttons, hover over elements, choose drop downs, validate text, etc. 
 
-__NOTE:__ This code is a companion to a Selenium tutoral (aimed at newbies) we presented as part of the Mangaluru Software Testing Group. 
+--------
+Motivation for creating this repository
+--------
+We noticed that many people who plan on learning selenium think it would take a lot of effort and time and hence would never start learning it. This small collection of 11 wellcrafted working examples would help you to learn Selenium quickly. Working through this example you will notice how easy it is to get started and perform various actions on a webpage.
 
----------
-1. SETUP:
----------
+This code is a companion to a Selenium tutorial (aimed at newbies) we presented as part of the Mangaluru Software Testing Group. This page was created by Qxf2 Services (http://qxf2.com) and Mangalore Infotech (http://mangaloreinfotech.in/) to help testers practice Selenium. 
 
+Qxf2 provides QA consultancy services for startups. If you found this repository useful, please let us know by giving us a star on GitHub.
+
+--------
+Setup:
+--------
 a. Install Python 2.x
 
-b. If you do not have it already, get pip 
+b. If you do not have it already, get pip
 
 c. Add both to your PATH environment variable
 
 d. Install Selenium (pip install Selenium)
 
+e. Download Geckodriver (https://github.com/mozilla/geckodriver/releases) and add it to your PATH environment variable
 
+f. Open command prompt, navigate to the folder you have downloaded the repo and run the example code using command eg: *python 01_Navigate_Url.py*
 
-__DISCLAIMER:__ 
+Pro tip: Once you are setup, try your best to timebox each exercise to no more than 10-minutes. We recommend this tip for even rank beginners who know nearly nothing about Selenium and Python!
+
+--------
+DISCLAIMER:
+--------
 
 This code is aimed at Selenium BEGINNERS. For more advanced tutorials and to learn how Qxf2 writes GUI automation, please visit our:
 
@@ -24,7 +39,9 @@ a) Our GUI automation guides: http://qxf2.com/gui-automation-diy
 
 b) Other GitHub repos: https://github.com/qxf2
 
-__AUTHORS:__ 
+--------
+AUTHORS:
+--------
 
 Avinash Shetty (avinash@qxf2.com)
 
