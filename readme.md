@@ -25,7 +25,9 @@ d. Install Selenium (pip install Selenium)
 
 e. Download Geckodriver (https://github.com/mozilla/geckodriver/releases) and add it to your PATH environment variable
 
-f. Open command prompt, navigate to the folder you have downloaded the repo and run the example code using command eg: *python 01_Navigate_Url.py*
+f. Download Chromedriver (https://sites.google.com/a/chromium.org/chromedriver/downloads) and add it to your PATH environment variable
+
+g. Open command prompt, navigate to the folder you have downloaded the repo and run the example code using command eg: *python 01_Navigate_Url.py*
 
 Pro tip: Once you are setup, try your best to timebox each exercise to no more than 10-minutes. We recommend this tip for even rank beginners who know nearly nothing about Selenium and Python!
 
