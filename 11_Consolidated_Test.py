@@ -40,16 +40,16 @@ rows = table.find_elements_by_xpath("//tbody/descendant::tr")
 result_data = []
 # Go to each row and get the no of columns and the navigate to column 
 # Then get the text from each column
-for i in xrange(0,len(rows)):
+for i in range(0,len(rows)):
     # Find no of columns by getting the td elements in each row
     cols = rows[i].find_elements_by_tag_name('td')
     cols_data = []
-    for j in xrange(0,len(cols)):
+    for j in range(0,len(cols)):
         # Get the text of each field 
         cols_data.append(cols[j].text.encode('utf-8'))           
     result_data.append(cols_data)
 # Print the result set
-print result_data
+print (result_data)
 
 # Find the name field using xpath with id
 name = driver.find_element_by_xpath("//input[@id='name']")
@@ -84,9 +84,9 @@ time.sleep(3)
 
 # Verify user is taken to Qxf2 tutorial redirect url
 if (driver.current_url== 'http://qxf2.com/selenium-tutorial-redirect'):
-    print "Success"
+    print ("Success")
 else:
-    print "Failure"
+    print ("Failure")
 
 # Pause the script for 3 sec
 time.sleep(3)

@@ -44,9 +44,9 @@ button.click()
 time.sleep(3)
 # Verify user is taken to Qxf2 tutorial redirect url
 if (driver.current_url== 'https://qxf2.com/selenium-tutorial-redirect'):
-    print "Success"
+    print ("Success")
 else:
-    print "Failure"
+    print("Failure") 
 
 # Close the browser   
 driver.close()

@@ -17,16 +17,24 @@ SCOPE:
 5) Close the browser
 """
 import time
+import os
 from selenium import webdriver
 
-# Create an instance of IE WebDriver
-driver = webdriver.Ie()
+# Create an instance of MS Edge WebDriver
+# dir = os.path.dirname(__file__)
+# edge_path = dir + "\\msedgedriver.exe"
+driver=webdriver.Ie()
+# driver = webdriver.Edge(executable_path="C:\\Program Files (x86)\\MicrosoftWebDriver\\MicrosoftWebDriver.exe")
+#driver=webdriver.Edge(executable_path="C:\\Users\\Rahul Bhave Qxf2\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\msedgedriver.exe")
 # Maximize the browser window
 driver.maximize_window()
+# time.sleep(250)
 # Navigate to Qxf2 Tutorial page
 driver.get("http://qxf2.com/selenium-tutorial-main")
 
+
 # Find the click me! button and click it
+time.sleep(10)
 button  = driver.find_element_by_xpath("//button[text()='Click me!']")  
 button.click()
 # Pause the script to wait for validation messages to load
@@ -35,7 +43,7 @@ time.sleep(3)
 # KEY POINT: Check if the validation mesage for name field
 try:
     driver.find_element_by_xpath("//label[text()='Please enter your name']")
-except Exception,e:
+except Exception as e:
     #This pattern of catching all exceptions is ok when you are starting out
     result_flag = False 
 else:
