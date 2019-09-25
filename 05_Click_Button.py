@@ -26,7 +26,9 @@ driver.maximize_window()
 driver.get("http://qxf2.com/selenium-tutorial-main")
 
 # KEY POINT: Locate the button and click on it 
-button  = driver.find_element_by_xpath("//button[text()='Click me!']") 
+# button  = driver.find_element_by_xpath("//button[text()='Click me!']") 
+
+button = driver.find_element_by_xpath("//button[@class='btn btn-danger btn-lg' and text()='Click me!']")
 button.click()
 
 # Pause the script to wait for page elements to load
