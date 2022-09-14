@@ -30,25 +30,23 @@ driver.get("http://qxf2.com/selenium-tutorial-main")
 
 #KEY POINT: Code to fill forms
 # Find the name field and fill name
-name = driver.find_element_by_xpath("//input[@id='name']")  
+name = driver.find_element("xpath", "//input[@id='name']")
 name.send_keys('Avinash')
 # Find the email field and fill your email
-driver.find_element_by_xpath("//input[@name='email']").send_keys('avinash@qxf2.com')
+driver.find_element("xpath", "//input[@name='email']").send_keys('avinash@qxf2.com')
 # Find the phone no field and fill phone no
-phone = driver.find_element_by_id('phone')
+phone = driver.find_element("id", "phone")
 phone.send_keys('9999999999')
-# Identify the xpath for Click me button and click on it 
-button = driver.find_element_by_xpath("//button[text()='Click me!']")  
+# Identify the xpath for Click me button and click on it
+button = driver.find_element("xpath", "//button[text()='Click me!']")
 button.click()
 # Wait for the new page to load
 time.sleep(3)
 # Verify user is taken to Qxf2 tutorial redirect url
 if (driver.current_url== 'https://qxf2.com/selenium-tutorial-redirect'):
-    print "Success"
+    print("Success")
 else:
-    print "Failure"
+    print("Failure")
 
-# Close the browser   
+# Close the browser
 driver.close()
-        
-

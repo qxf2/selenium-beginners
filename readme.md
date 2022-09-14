@@ -1,27 +1,31 @@
 --------
 Learn Selenium using examples for beginners
 --------
-Selenium lets you control the browser through a script. Selenium lets you interact with browsers in a manner similar to real users interacting with browsers. We present small code samples that help you learn selenium from scratch using Python. These are example code for some of the most commonly performed actions on a webpage like navigating to a URL, fill in the text, click buttons, hover over elements, choose drop downs, validate text, etc. 
+Selenium lets you control the browser through a script. Selenium lets you interact with browsers in a manner similar to real users interacting with browsers. We present small code samples that help you learn selenium from scratch using Python. These are example code for some of the most commonly performed actions on a webpage like navigating to a URL, fill in the text, click buttons, hover over elements, choose drop downs, validate text, etc.
 
 --------
 Motivation for creating this repository
 --------
 We noticed that many people who plan on learning selenium think it would take a lot of effort and time and hence would never start learning it. This small collection of 11 wellcrafted working examples would help you to learn Selenium quickly. Working through this example you will notice how easy it is to get started and perform various actions on a webpage.
 
-This code is a companion to a Selenium tutorial (aimed at newbies) we presented as part of the Mangaluru Software Testing Group. This page was created by Qxf2 Services (http://qxf2.com) and Mangalore Infotech (http://mangaloreinfotech.in/) to help testers practice Selenium. 
+This code is a companion to a Selenium tutorial (aimed at newbies) we presented as part of the Mangaluru Software Testing Group. This page was created by Qxf2 Services (http://qxf2.com) and Mangalore Infotech (http://mangaloreinfotech.in/) to help testers practice Selenium.
 
 Qxf2 provides QA consultancy services for startups. If you found this repository useful, please let us know by giving us a star on GitHub.
+
+####UPDATE:
+
+This repo has been updated on 14-Sep-2022 to account for [some changes](https://github.com/SeleniumHQ/selenium/blob/a4995e2c096239b42c373f26498a6c9bb4f2b3e7/py/CHANGES) in Selenium 4.3.2 that were not backward incompatible. We also took this chance to update the scripts to use Python 3.x
 
 --------
 Setup:
 --------
-a. Install Python 2.x
+a. Install Python 3.x
 
 b. If you do not have it already, get pip
 
 c. Add both to your PATH environment variable
 
-d. Install Selenium (pip install Selenium)
+d. Install the latest Selenium (pip install Selenium)
 
 e. Download Geckodriver (https://github.com/mozilla/geckodriver/releases) and add it to your PATH environment variable
 
