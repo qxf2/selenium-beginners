@@ -14,7 +14,7 @@ Qxf2 provides QA consultancy services for startups. If you found this repository
 
 ####UPDATE:
 
-It has been updated on 14-Sep-2022 to account for [some changes](https://github.com/SeleniumHQ/selenium/blob/a4995e2c096239b42c373f26498a6c9bb4f2b3e7/py/CHANGES) in Selenium 4.3.2 that were not backward incompatible. We also took this chance to update the scripts to use Python 3.x
+This repo has been updated on 14-Sep-2022 to account for [some changes](https://github.com/SeleniumHQ/selenium/blob/a4995e2c096239b42c373f26498a6c9bb4f2b3e7/py/CHANGES) in Selenium 4.3.2 that were not backward incompatible. We also took this chance to update the scripts to use Python 3.x
 
 --------
 Setup:
