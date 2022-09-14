@@ -26,11 +26,11 @@ driver.maximize_window()
 driver.get("http://qxf2.com/selenium-tutorial-main")
 
 # Find the table element in the page
-table = driver.find_element_by_xpath("//table[@name='Example Table']")
+table = driver.find_element("xpath", "//table[@name='Example Table']")
 
 # KEY POINT: Find the tr elements in the table
-rows = table.find_elements_by_xpath("//tbody/descendant::tr")
-print "Total No of Rows: %d"%len(rows)
+rows = table.find_elements("xpath", "//tbody/descendant::tr")
+print("Total No of Rows: %d"%len(rows))
 
 # Pause the script for 3 seconds
 time.sleep(3)

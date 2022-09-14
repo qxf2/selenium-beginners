@@ -27,13 +27,13 @@ driver.maximize_window()
 driver.get("http://qxf2.com/selenium-tutorial-main")
 
 # KEY POINT: Identify the dropdown and click on it
-dropdown_element = driver.find_element_by_xpath("//button[@data-toggle='dropdown']")
-dropdown_element.click()  
+dropdown_element = driver.find_element("xpath", "//button[@data-toggle='dropdown']")
+dropdown_element.click()
 # Sleep is one way to pause while the page elements load
 time.sleep(1)
 
 # KEY POINT: Locate a particular option and click on it
-driver.find_element_by_xpath("//a[text()='Male']").click()
+driver.find_element("xpath", "//a[text()='Male']").click()
 # Future tutorials cover explicit, implicit and ajax waits
 time.sleep(3)
 

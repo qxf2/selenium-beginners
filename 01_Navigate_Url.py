@@ -27,7 +27,7 @@ browser.get('http://qxf2.com/selenium-tutorial-main')
 if(browser.title=="Qxf2 Services: Selenium training main"):
     print ("Success: Qxf2 Tutorial page launched successfully")
 else:
-    print ("Failed: Qxf2 Tutorial page Title is incorrect") 
+    print ("Failed: Qxf2 Tutorial page Title is incorrect")
 
 # Quit the browser window
-browser.quit() 
+browser.quit()

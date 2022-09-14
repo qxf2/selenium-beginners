@@ -25,7 +25,7 @@ driver.maximize_window()
 driver.get("http://qxf2.com/selenium-tutorial-main")
 
 # KEY POINT: Locate the checkbox and click on it
-checkbox = driver.find_element_by_xpath("//input[@type='checkbox']")
+checkbox = driver.find_element("xpath", "//input[@type='checkbox']")
 checkbox.click()
 
 # Pause the script for 3 sec so you can confirm the check box was selected
