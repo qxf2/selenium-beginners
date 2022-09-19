@@ -7,8 +7,8 @@ For more advanced tutorials and to learn how Qxf2 writes GUI automation, please 
 a) Our GUI automation guides: http://qxf2.com/gui-automation-diy
 b) Other GitHub repos: https://github.com/qxf2
 
-AUTHOR: Avinash Shetty
-Contact: avinash@qxf2.com
+AUTHOR: Samah Quran
+Contact: samah.a.quran@qxf2.com
 
 SCOPE:
 1) Launch Firefox driver
@@ -54,10 +54,10 @@ print(result_data)
 # Find the name field using xpath with id
 name = driver.find_element("xpath", "//input[@id='name']")
 # Send text to the name element using send_keys method
-name.send_keys('Avinash')
+name.send_keys('samah')
 # Find the email field using xpath without id
 email = driver.find_element("xpath", "//input[@name='email']")
-email.send_keys('avinash@qxf2.com')
+email.send_keys('samah.a.quran@qxf2.com')
 # Find the phone no field using id
 phone = driver.find_element("id", "phone")
 phone.send_keys('9999999999')
