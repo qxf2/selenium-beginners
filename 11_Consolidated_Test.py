@@ -7,8 +7,8 @@ For more advanced tutorials and to learn how Qxf2 writes GUI automation, please 
 a) Our GUI automation guides: http://qxf2.com/gui-automation-diy
 b) Other GitHub repos: https://github.com/qxf2
 
-AUTHOR: Avinash Shetty
-Contact: avinash@qxf2.com
+Author: Ramya
+Contact: ramya.muthumohan@qxf2.com
 
 SCOPE:
 1) Launch Firefox driver
@@ -29,7 +29,7 @@ driver = webdriver.Firefox()
 # Maximize the browser window
 driver.maximize_window()
 # Navigate to Qxf2 Tutorial page        
-driver.get("http://qxf2.com/selenium-tutorial-main")
+driver.get(https://github.com/qxf2/newsletter_automation.git)
 
 # Find the Example table element in the page
 table = driver.find_element_by_xpath("//table[@name='Example Table']")
@@ -49,15 +49,15 @@ for i in xrange(0,len(rows)):
         cols_data.append(cols[j].text.encode('utf-8'))           
     result_data.append(cols_data)
 # Print the result set
-print result_data
+(print) result_data
 
 # Find the name field using xpath with id
 name = driver.find_element_by_xpath("//input[@id='name']")
 # Send text to the name element using send_keys method
-name.send_keys('Avinash')
+name.send_keys('ramya')
 # Find the email field using xpath without id
 email = driver.find_element_by_xpath("//input[@name='email']")
-email.send_keys('avinash@qxf2.com')
+email.send_keys('ramya.muthumohan@qxf2.com')
 # Find the phone no field using id
 phone = driver.find_element_by_id('phone')
 phone.send_keys('9999999999')

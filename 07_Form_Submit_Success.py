@@ -6,7 +6,7 @@ For more advanced tutorials and to learn how Qxf2 writes GUI automation, please 
 a) Our GUI automation guides: http://qxf2.com/gui-automation-diy
 b) Other GitHub repos: https://github.com/qxf2
 
-AUTHOR: Avinash Shetty
+AUTHOR: Avinash shetty
 Contact: avinash@qxf2.com
 
 SCOPE:
