@@ -29,7 +29,7 @@ d. Install the latest Selenium (pip install Selenium)
 
 e. Download Geckodriver (https://github.com/mozilla/geckodriver/releases) and add it to your PATH environment variable
 
-f. Download Chromedriver (https://sites.google.com/a/chromium.org/chromedriver/downloads) and add it to your PATH environment variable
+f. Download Chromedriver (https://sites.google.com/chromium.org/driver/) and add it to your PATH environment variable
 
 g. Open command prompt, navigate to the folder you have downloaded the repo and run the example code using command eg: *python 01_Navigate_Url.py*
 
