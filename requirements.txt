@@ -1,0 +1,2 @@
+# used to run asynchronous calls against webdrivers
+caqui>=2.0.0rc2
